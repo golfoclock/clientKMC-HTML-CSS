@@ -1,3 +1,39 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-size: 1em;
+    line-height: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+ html {
+   font-size: 14px;
+   font-size: 87.5%;    
+}
+}
+
+body {
+   background-color: #b6a996 ;
+   font-size: 100%;
+   font-size: 1em;
+   background: url('./lotus1.jpg') no-repeat top center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   min-height: 100%;
+}
+
 .page {
+ 	max-width: 640px;
+    margin: 20px auto 20px auto;
+    background-color: #A15E7D ;
+    padding: 20px;
 	font-family: 'ABeeZee', sans-serif;
 }	
