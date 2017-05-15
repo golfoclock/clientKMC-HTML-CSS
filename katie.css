@@ -22,7 +22,6 @@ html {
 }
 
 body {
-   background-color: #b6a996 ;
    font-size: 100%;
    font-size: 1em;
    background: url('lotus2.jpg')no-repeat top center fixed;
@@ -125,7 +124,7 @@ ul li:last-child {
 	border-bottom:none;
 }
 
-
+/********** ACCORDION SECTION **********/
 
 .accordion li {
 	background-color: white;
@@ -136,35 +135,34 @@ ul li:last-child {
 	outline: none;
 	width: 100%;
 	padding:5px;
-	text-align: justify; 
+	text-align: center; 
    -webkit-transition:all .25% ease-in-out;
-
-
-   transition: all .25% ease-in-out;
-
-
+	transition: all .25% ease-in-out;
+	display: inline-block;
 }
 
 .accordion li .accordion-panel {
 	padding:10px;
 	display: none;
+	text-align: left;
+	opacity : 0.3;
 	
 }
 
 .introButton {
 	background-color: #FFF3DC;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #5e5751;
-	text-align: center;
 
 }
 
 .aboutButton {
 	background-color: #FFF3DC;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #5e5751;
+	
 }
 
 .wellnessButton {
@@ -172,6 +170,7 @@ ul li:last-child {
 	text-transform: uppercase;
 	font-family: 'Quicksand', sans-serif;
 	color: #5e5751;
+
 }
 
 .contactButton {
@@ -179,7 +178,11 @@ ul li:last-child {
 	text-transform: uppercase;
 	font-family: 'Quicksand', sans-serif;
 	color: #5e5751;
+
 }
+
+
+
 
 p::first-letter { 
     font-size: 200%;
@@ -194,7 +197,7 @@ ul .tabList {
 	position: fixed;
 	bottom: 0;
 	left: 0;
- 	height: 50px;
+ 	height: 35px;
  	width: 100%;
  	color: #C5B0B7;
  	font-family: 'Open Sans', sans-serif;
