@@ -82,16 +82,21 @@ header h1::before {
     top: -10px;
     left: 25%;
     position: absolute;    
-    }
+}
+
+p {
+  color: #5e5d5d
+}
 
 
 
 
 .panel {
  	background-color: #fff;
- 	color: #666;
+  color: #4a4a4a;
  	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
- 	overflow: auto;}
+ 	overflow: auto;
+ }
 
 button {
 	border: none;
@@ -145,7 +150,6 @@ ul li:last-child {
 	padding:10px;
 	display: none;
 	text-align: left;
-	opacity : 0.3;
 	
 }
 
@@ -181,26 +185,33 @@ ul li:last-child {
 
 }
 
+.yoga {
+  font-weight: bold;
+
+}
 
 
 
 p::first-letter { 
-    font-size: 200%;
-    color: #BDA586;
-}
+    font-size: 150%;
+    color: #5e5751;
+    font-weight: bold;
 
+}
 ul .tabList {
 	
 }
+
 
 .footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
- 	height: 35px;
+ 	height: 20px;
  	width: 100%;
- 	color: #C5B0B7;
+ 	color: #e2d5d5;
  	font-family: 'Open Sans', sans-serif;
 }
 
+}
 }
