@@ -4,7 +4,6 @@ $(document).ready(function() {
 
 	$('.accordion .accordion-control').on('click', function(e){
 		e.preventDefault();
-console.log('click')
 
 		$(this)
 		.next('.accordion-panel')
