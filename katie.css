@@ -43,6 +43,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }	
 
+/*.social li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 5px;
+  font-size: 1.2em;
+}*/
+
 header {
     text-align: center;
     color: #FFF3DC ;
